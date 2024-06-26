@@ -1,0 +1,22 @@
+h2{
+    color: blue;
+    background-color: yellow;
+    /* there are two color value: 
+    1. Hex ->#20m545
+    2. rgb -> rgb(120,55,10) */
+    background-color: #56f33d;
+}
+
+/* p{
+    background-color: rgb(227, 184, 77);
+} */
+
+.container{
+    /* background-color: #56f33d; */
+   width: 600px;
+   height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2BjFcg6Sp0FkUslmmrCuWQQPFlTn0e23efg&s');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
