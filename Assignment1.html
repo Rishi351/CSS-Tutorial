@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="./cssFiles//Assignment1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="header">
+          <h1>Registration Form</h1>
+        </div>
+
+        <div class="input-field">
+          <label for="Details" class="label">Enter Your Deatils Below :</label>
+          <li>
+            <input type="Email" id="Details" placeholder="xyz@gnail.com" />
+          </li>
+          <li><input type="password" id="Details" placeholder="password" /></li>
+          <p><b>! Type a Complex password with 8-20 character</b></p>
+          <li>
+            <input
+              type="number"
+              id="Details"
+              placeholder="+20 contact Number"
+            />
+          </li>
+        </div>
+        <hr />
+        <div class="radio-check">
+          <label for="profession" class="label"> Enter Your Profession :</label>
+          <li>
+            <input type="radio" id="profession" name="profession" /> Student
+            <input type="radio" id="profession" name="profession" /> Teacher
+            <input type="radio" id="profession" name="profession" /> Developer
+          </li>
+
+          <label for="Choose Class" class="label"
+            >Choose the stage if you are (student)</label
+          >
+          <select>
+            <option value="1st">1st</option>
+            <option value="5th">5th</option>
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="diploma">Diploma</option>
+            <option value="degree">Degree</option>
+            <option value="masters">Master's</option>
+          </select>
+        </div>
+        <hr />
+        <div class="birth-date">
+          <li>
+            <label for="BirthDay" class="label">Enter Your Birth Day</label>
+            <input type="Date" id="BirthDay" />
+          </li>
+        </div>
+        <hr />
+        <div class="note">
+          <li><input type="text" placeholder="Add Note" /></li>
+        </div>
+        <hr />
+        <div class="btn">
+          <input type="submit" value="Submit" id="submit" />
+          <input type="reset" value="Reset" id="reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
