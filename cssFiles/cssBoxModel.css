@@ -1,0 +1,25 @@
+*{
+    background-color: #ccc;
+}
+
+h1{
+    background-color: rgb(105, 105, 249);
+    border: 4px solid black;
+    padding: 10px;
+    padding: 50px 20px;
+    padding: 20px; 
+    /* auto-> adjust as per height */
+    margin: 20px;
+    margin: 20px 30px;
+    margin: 50px auto;
+    width: 50%;
+
+}
+p{
+    background-color: antiquewhite;
+    text-align: justify;
+    /* it makes text as straight in both side */
+    margin: 20px;
+    max-height: 100px !important; 
+    overflow: auto;
+}
