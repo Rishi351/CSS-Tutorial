@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    background-color: rgb(179, 213, 246);
+}
+
+.item
+{
+    width:150px;
+    height: 150px;
+    background-color: rgb(3, 158, 158);
+    margin: 40px 0 0 40px;
+    /* position:relative; */
+    
+}
+.item > div
+{
+    width:150px;
+    height: 150px;
+    background-color: rgb(12, 131, 36);
+    margin: 40px 0 0 0;
+    position:relative;
+    /* top: 30px;
+    left: 30px; */
+
+    bottom: 30px;
+    right: 30px;
+}
+
+.item2
+{
+    width:150px;
+    height: 150px;
+    background-color: rgb(3, 38, 38);
+    margin: 40px 0 0 40px;
+    position:relative;
+    
+}
+.item2 > .first
+{
+    width:50px;
+    height: 50px;
+    background-color: rgb(252, 4, 4);
+    /* margin: 40px 0 0 0; */
+    
+    /* if we not give any position property in the parent div 
+    then it will ignore html element and then take position 
+    itself to the browser body element */
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.item2 > .second
+{
+    width:50px;
+    height: 50px;
+    background-color: rgb(253, 1, 1);
+    /* margin: 40px 0 0 0; */
+    
+    /* if we not give any position property in the parent div 
+    then it will ignore html element and then take position 
+    itself to the browser body element */
+    
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.item2 > .third
+{
+    width:50px;
+    height: 50px;
+    background-color: rgb(253, 1, 1);
+    /* margin: 40px 0 0 0; */
+    
+    /* if we not give any position property in the parent div 
+    then it will ignore html element and then take position 
+    itself to the browser body element */
+    
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.item2 > .fourth
+{
+    width:50px;
+    height: 50px;
+    background-color: rgb(253, 1, 1);
+    /* margin: 40px 0 0 0; */
+    
+    /* if we not give any position property in the parent div 
+    then it will ignore html element and then take position 
+    itself to the browser body element */
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.item2 > .fifth
+{
+    width:75px;
+    height: 75px;
+    background-color: rgb(1, 253, 26);
+    /* margin: 40px 0 0 0; */
+    
+    /* if we not give any position property in the parent div 
+    then it will ignore html element and then take position 
+    itself to the browser body element */
+    
+    position: absolute;
+    top: 37.5px;
+    right: 37.5px;
+}
+
+
+.item3
+{
+    width:600px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(204, 249, 4);
+    /* margin: 40px 0 0 ; */
+    position:fixed;
+    top: 0px;
+    left: 200px;
+    
+}
+
+.item4
+{
+    width:150px;
+    height: 150px;
+    background-color: rgb(20, 4, 249);
+    margin: 40px 0 0 40px;
+    position:sticky;
+    top: 100px;
+   
+}

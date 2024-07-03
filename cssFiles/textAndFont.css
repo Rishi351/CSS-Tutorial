@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111;
+}
+h1{
+    color: orange;
+    direction: rtl;
+    /* direction right to left */
+    direction: ltr;
+    /* direction left to right */
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: yellow;
+    direction: rtl;
+    /* direction right to left */
+    direction: ltr;
+    /* direction left to right */
+    /* word-spacing: 10px;
+    letter-spacing: 3px; */
+    text-align: justify;
+    text-indent: 4cm;
+    /* provide spacing start of fisrt line */
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    font-weight:bolder;
+    font-variant:small-caps;
+    font-style: italic;
+}
+
+.decoration{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+#shadow
+{
+    text-align: center;
+    color: white;
+    margin: 50px 30px;
+    font-size: 4rem;
+    text-shadow: 3px 2px 5px rgb(243, 123, 123);
+}
