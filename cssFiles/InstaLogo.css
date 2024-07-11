@@ -1,0 +1,43 @@
+.container
+{
+  width: 170px;
+  height: 170px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,#fd5949 45%, #d6249f 60%, #285aeb 90%);
+  border-radius: 35px;
+  display: grid;
+  place-items: center;
+}
+
+.item1
+{
+  width: 120px;
+  height: 120px;
+  border: 10px solid #fff;
+  border-radius: 35px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.item1::before
+{
+  content:'' ;
+  width: 45px;
+  height: 45px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.item1::after
+{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  background-color: #fff;
+}
