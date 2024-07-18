@@ -1,0 +1,24 @@
+/* Combinator */
+/* space , > , + , ~ */
+
+
+/* Descendent (space) combinator */
+/* .container p
+{
+    color: yellow;
+} */
+
+/* child (>) combinator */
+.container > .inside-container > p{
+    color: yellow;
+}
+ 
+/* adjacent(+) general(~) sibling selector */
+
+h1 + p{
+    color: red;
+}
+
+h1 ~ p{
+    color: red;
+}
